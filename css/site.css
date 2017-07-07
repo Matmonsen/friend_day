@@ -1,0 +1,33 @@
+h1 {
+    color: white;
+}
+.jumbotron {
+    margin-bottom: 0;
+}
+
+.jumbo-title {
+    background: #4f96ad;
+
+}
+
+body, .jumbo-content {
+    background: #66a083;
+}
+.friend-row {
+    margin-bottom: 5px;
+}
+
+.input-group {
+    padding-left: 5px;
+}
+
+button, .input-group {
+    margin-bottom: 5px;
+}
+.push-20 {
+    margin-top: 10px;
+}
+
+#calculate-button {
+    min-height: 60px;
+}
