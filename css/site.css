@@ -31,3 +31,6 @@ button, .input-group {
 #calculate-button {
     min-height: 60px;
 }
+#template {
+    display: none;
+}
