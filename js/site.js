@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     var setAnswer = function(friendDate) {
         if (typeof friendDate !== "undefined")
-            $("#answer").text("Friend-day is " + friendDate.format(dateFormat) + "!")
+            $("#answer").text("Medianbursdagen deres er " + friendDate.format(dateFormat) + "!")
     };
 
     var getDatesFromInputFields = function() {
