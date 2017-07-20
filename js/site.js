@@ -46,6 +46,9 @@ $(document).ready(function() {
 
         while (allDates.length  > 1) {
             var next = [];
+
+            makeListOfDatesEven(allDates);
+
             for(var i = 0; i < allDates.length; i+=2) {
                 var midDate = midDateBetween(allDates[i], allDates[i + 1]);
                 next.push(midDate)
