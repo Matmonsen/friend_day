@@ -5,14 +5,6 @@ h1 {
     margin-bottom: 0;
 }
 
-.jumbo-title {
-    background: #4f96ad;
-
-}
-
-body, .jumbo-content {
-    background: #66a083;
-}
 .friend-row {
     margin-bottom: 5px;
 }
@@ -33,4 +25,36 @@ button, .input-group {
 }
 #template {
     display: none;
+}
+
+/** COLORS **/
+/** MAIN: **/
+body, .jumbo-content {
+    background: white;
+}
+/** SEC: **/
+.jumbo-title {
+    background: #424242;
+    color: white;
+}
+
+.btn-danger {
+  border-color: #ECECEC;
+  color: #424242;
+  background-color: #ECECEC;
+}
+.btn-danger:hover, .btn-danger:hover {
+  border-color: #DADFE1;
+  color: #424242;
+  background-color: #DADFE1;
+}
+.btn-primary {
+  background-color: #424242;
+  color: white;
+  border-color: #424242;
+}
+.btn-primary:hover, .btn-primary:hover {
+  background-color: #424242;
+  color: white;
+  border-color: #424242;
 }

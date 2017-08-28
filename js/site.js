@@ -28,7 +28,7 @@ $(document).ready(function() {
 
     var setAnswer = function(friendDate) {
         if (typeof friendDate !== "undefined")
-            $("#answer").text("Medianbursdagen deres er " + friendDate.format(dateFormat) + "!")
+            $("#answer").html("Universet har snakket.<br> Den " + friendDate.format(dateFormat) + " må dere finne på noe sammen. Universet garanterer en gøy kveld.<br> Skriv det ned i kalenderen.");
     };
 
     var getDatesFromInputFields = function() {
